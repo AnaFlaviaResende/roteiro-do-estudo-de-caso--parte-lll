@@ -19,6 +19,7 @@
 h1 {
   color: white;
   text-align: center;
+  padding: 20px;
 }
 
 .card-aprovado {
@@ -42,4 +43,39 @@ h1 {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
   color: red;
 }
-/*;*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(192, 190, 190);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}

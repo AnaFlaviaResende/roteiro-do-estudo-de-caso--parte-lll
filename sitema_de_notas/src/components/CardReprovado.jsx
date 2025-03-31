@@ -1,11 +1,11 @@
-export function CardReprovado() {
+export function CardReprovado({ nome, situacao }) {
   return (
     <div className="card-reprovado">
       <p>
-        <strong>Nome:</strong> João Silva
+        <strong>Nome:</strong> {nome}
       </p>
       <p>
-        <strong>Situação:</strong> Reprovado
+        <strong>Situação:</strong> {situacao}
       </p>
     </div>
   );
