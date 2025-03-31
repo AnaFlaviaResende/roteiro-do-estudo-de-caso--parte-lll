@@ -1,22 +1,17 @@
-import { Route, Routes } from 'react-router-dom'
-import { Form } from './components/Form';
-import { Card } from "./components/Card";
-import './App.css'
-
+import "./App.css";
+import { CardAprovado } from "./components/CardAprovado";
+import { CardReprovado } from "./components/CardReprovado";
 
 function App() {
-
-
   return (
     <>
-      <div>
-        <Routes>
-          <Route path="Form" element={<Form />} />
-          <Route path="Card" element={<Card />} />
-        </Routes>
+      <div className="card-aluno">
+        <h1>SITUAÇÃO DO ALUNO</h1>
+        <CardAprovado />
+        <CardReprovado />
       </div>
     </>
   );
 }
 
-export default App
+export default App;

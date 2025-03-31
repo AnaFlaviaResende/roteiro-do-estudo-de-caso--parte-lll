@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-aluno {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgb(158, 158, 158);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.card-aprovado {
+  
+  width: 200px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: rgb(192, 190, 190);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+  color: blue;
+}
+
+.card-reprovado {
+  
+  width: 200px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: rgb(192, 190, 190);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.473);
+  color: red;
+}
+/*;*/
